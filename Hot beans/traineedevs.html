@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trainee Web Developers</title>
+</head>
+<style>
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.column {
+  float: left;
+  width: 33.3%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.container {
+  padding: 0 16px;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #555;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #111;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 60.5px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #0daaa2;
+  }
+    
+    body {background-color: white;}
+    h1   {color: #0a6e69;}
+    p    {color: #0daaa2;}
+    p.solid {outline-style: solid;}
+</style>
+</head>
+
+<body>
+<ul>
+  <li><a class="active" href="devcourses.html">Developer Courses</a></li>
+  <li><a href="application.html">Applications</a></li>
+  <li><a href="companyprofile.html">Company Profile</a></li>
+  <li><a href="jobspec.html">Job Requirements</a></li>
+</ul>
+<h1>Current Trainee Developers</h1> 
+<div class="row">
+  <div class="column">
+    <div class="card">
+      <img src="https://images.pexels.com/photos/733872/pexels-photo-733872.jpeg?cs=srgb&dl=pexels-andrea-piacquadio-733872.jpg&fm=jpg" alt="Jane" style="width:100%">
+      <div class="container">
+        <h2>Jane Doe</h2>
+        <p class="title">Junior Front-End Developer</p>
+        <p>Junior Web Developer at Hot Beans. Expert in HTML, CSS, and JavaScript and delivering engaging web experiences. Detail-oriented problem solver who exceeds client expectations. A positive and collaborative team member thriving in the Hot Beans web development environment. Consistently provides support to other members making her crucial to the team.</p>
+        <p>example@example.com</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQCY8cgEKR2GZ10w-DStY8kCAB3EPoq_qdckg&usqp=CAU" alt="Mike" style="width:100%">
+      <div class="container">
+        <h2>Mike Ross</h2>
+        <p class="title">Junior Full-Stack Developer</p>
+        <p>Junior web developer at Hot Beans. Proficient in HTML, CSS, and JavaScript, creating captivating web experiences. Detail-oriented and adept at problem-solving, consistently going above and beyond for customers, providing amazing service and support. Mike's positive and collaborative nature shines in the Hot Beans web development environment, making him an invaluable team member.</p>
+        <p>example@example.com</p>
+      </div>
+    </div>
+  </div>
+  
+  <div class="column">
+    <div class="card">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQVGvlnxtJ-H9b42-5CB88utgGx4FKy-mn8tQ&usqp=CAU" alt="John" style="width:100%">
+      <div class="container">
+        <h2>John Doe</h2>
+        <p class="title">Junior QA Developer</p>
+        <p>Junior web developer at Hot Beans. Highly skilled in HTML, CSS, and JavaScript. With meticulous attention to detail and a talent for creative problem-solving, John consistently creates high quality content and gives a high quality service to clients. His positive mindset and collaborative nature make him an invaluable asset in fostering a thriving environment at Hot Beans.</p>
+        <p>example@example.com</p>
+      </div>
+    </div>
+  </div>
+</div>
+     
+</body>
+</html>
